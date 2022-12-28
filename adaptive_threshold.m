@@ -1,5 +1,5 @@
 clear
-x = imread('mri.tif')
+i = imread('mri.tif')
 average_filter = fspecial('average',[15 15]);
 mean_image = imfilter(i,average_filter)
 subtract = i - mean_image
