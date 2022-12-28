@@ -10,7 +10,6 @@ imshow(i);
 title("orginal");
 subplot(2,2,2);
 imshow(N);
-imwrite(N,"saltpaper.jpg");
 title("after noise");
 subplot(2,2,3);
 imshow(noise_free);
